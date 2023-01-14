@@ -1,7 +1,7 @@
 /* ==UserStyle== 
 @name           Tutanota Catppuccin
 @namespace      github.com/catppuccin/tutanota
-@version        0.0.1
+@version        0.0.2
 @description    Soothing pastel theme for Tutanota
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/tutanota/raw/main/catppuccin.user.css
@@ -178,15 +178,15 @@
   }
 
   body, drawer-menu, .list-bg {
-    background-color: $mantle !important;
+    background-color: $base !important;
     color: $text;
   }
   
   .list-row {
-    background-color: $mantle;
+    background-color: $base;
   }
   .odd-row {
-    background-color: $base;
+    background-color: $surface0;
   }
   
   .header-nav {
@@ -195,14 +195,14 @@
   }
   
   .elevated-bg, .folder-column, div[aria-modal] {
-    background-color: $base !important;
+    background-color: $surface0 !important;
   }
   
   .dropdown-button, .dropdown-button div {
     color: $text !important;
   }
   .dropdown-button:hover {
-    background-color: $surface0 !important;
+    background-color: $surface1 !important;
   }
 
   .row-selected {
@@ -247,6 +247,6 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: $surface0;
+    background-color: $surface1;
   }
 }
