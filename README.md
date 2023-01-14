@@ -37,6 +37,8 @@
 
 ## Usage
 
+Set Tutanota's built-in theme to either **light** if you're using Latte or **dark** if you're using the others.
+
 ### Stylus
 1. Install Stylus [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
 2. Enable CSP Patching from Stylus Settings > Advanced.
